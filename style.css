@@ -188,12 +188,14 @@ p
 {
 	min-width: 150px;
 	margin-bottom: 10px;
+	
 }
 .about .box .year_company h5
 {
 	text-transform: uppercase;
-	color: #848c90;
+	color:black;
 	font-weight: 600;
+	font-size: smaller;
 }
 .about .box .text h4
 {
@@ -254,6 +256,16 @@ p
 	width: 20px;
 
 }
+.project{
+	color: black;
+	font-size: large;
+	font: bold;
+	
+}
+.school{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: larger;
+}
 
 
 @media (max-width: 1000px)
@@ -283,3 +295,4 @@ p
     	grid-template-columns: repeat(1,1fr);
 	}
 }
+
